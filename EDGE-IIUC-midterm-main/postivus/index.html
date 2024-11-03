@@ -11,34 +11,39 @@
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="p-10 mx-1.5">
-        <nav>
-            <div class="flex justify-between  text-[#000000] gap-5">
-                <div>
-                    <img class="w-25 h-25" src="/EDGE-IIUC-midterm-main/postivus/desktop/logo-big.png"/>
-                </div>
-                <div>
-                    <ul class="grid grid-cols-6 text-sm mt-2">
-                        <li>About Us</li>
-                        <li>Services</li>
-                        <li>Use Cases</li>
-                        <li>Pricing</li>
-                        <li>Blog</li>
-                        <li><button class="rounded-lg px-5 py-2 p-3 border border-[#000000]">Request a quote</button></li>
-
-                    </ul>
-                </div>
+   
+     <header class="p-10 mx-1.5">
+        <nav class="flex justify-between items-center">
+            <div>
+                <img class="w-32 sm:w-48 h-auto" src="/EDGE-IIUC-midterm-main/postivus/desktop/logo-big.png" alt="Logo"/>
+            </div>
+            <div class="block md:hidden">
+                <button id="hamburger" class="text-2xl">
+                    &#9776; <!-- Hamburger icon -->
+                </button>
+            </div>
+            <div class="hidden sm:flex sm:gap-20 text-sm mt-2" id="navbar">
+                <ul class="flex gap-20">
+                    <li class="hover:scale-110 hover:shadow-gray">About Us</li>
+                    <li class="hover:scale-110 hover:shadow-gray">Services</li>
+                    <li class="hover:scale-110 hover:shadow-gray">Use Cases</li>
+                    <li class="hover:scale-110 hover:shadow-gray">Pricing</li>
+                    <li class="hover:scale-110 hover:shadow-gray">Blog</li>
+                    <li class="hover:scale-110 hover:shadow-gray">
+                        <button class="hover:shadow-white rounded-lg px-5 py-2 border border-[#000000]">Request a quote</button>
+                    </li>
+                </ul>
             </div>
         </nav>
         <div class="flex justify-between mt-10 mx-3.5">
             <div>
-                <h1 class="font-family:Space Grotesk font-bold text-4xl mt-20">
+                <h1  style="font-family: 'Space Grotesk', sans-serif;" class="text-4xl mt-20 font-bold">
                     Navigating the<br> digital landscape<br> for success
                 </h1>
                 <p class="text-lg text-[#000000] mt-10">
                     Our digital marketing agency helps businesses<br> grow and succeed online through a range of<br>services including SEO, PPC, social media marketing,<br> and content creation.
                 </p>
-                <button class="py-2 px-5 bg-[#000000] text-xl text-[#FFFFFF] rounded-lg mt-10 p-4 leading-6">Book a consultation</button>
+                <button style="font-family: 'Space Grotesk', sans-serif;" class="hover:scale-110 hover:bg-[#000000] hover:shadow[#000000] py-2 px-5 bg-[#000000] text-xl text-[#FFFFFF] rounded-lg mt-10 p-4 leading-6">Book a consultation</button>
             </div>
             <div>
                 <img class="w-300 h-300 mt-10" src="/EDGE-IIUC-midterm-main/postivus/desktop/cover.png"/>
@@ -46,19 +51,19 @@
         </div>
         <div class="mt-20">
             <ul class="grid grid-cols-6 gap-2 text-[#000000]">
-                <li><img class=""src="/EDGE-IIUC-midterm-main/postivus/desktop/amazon.png"/></li>
-                <li><img src="/EDGE-IIUC-midterm-main/postivus/desktop/dribble.png"/></li>
-                <li><img src="/EDGE-IIUC-midterm-main/postivus/desktop/hubspot.png"/></li>
-                <li><img src="/EDGE-IIUC-midterm-main/postivus/desktop/notion.png"/></li>
-                <li><img src="/EDGE-IIUC-midterm-main/postivus/desktop/netflix.png"/></li>
-                <li><img src="/EDGE-IIUC-midterm-main/postivus/desktop/zoom.png"/></li>
+                <li><img  class="hover:scale-150"  src="/EDGE-IIUC-midterm-main/postivus/desktop/amazon.png"/></li>
+                <li><img class="hover:scale-150" src="/EDGE-IIUC-midterm-main/postivus/desktop/dribble.png"/></li>
+                <li><img  class="hover:scale-150"  src="/EDGE-IIUC-midterm-main/postivus/desktop/hubspot.png"/></li>
+                <li><img  class="hover:scale-150"  src="/EDGE-IIUC-midterm-main/postivus/desktop/notion.png"/></li>
+                <li><img  class="hover:scale-150"  src="/EDGE-IIUC-midterm-main/postivus/desktop/netflix.png"/></li>
+                <li><img  class="hover:scale-150"  src="/EDGE-IIUC-midterm-main/postivus/desktop/zoom.png"/></li>
             </ul>
         </div>
-    </header>
+    </header> 
     <main class=" mx-3.5 p-10">
         <div class="flex gap-5 mt-30 mb-10">
             <div>
-                <h3 class=" font-bold text-2xl text-[#000000] bg-lime-400 p-2 rounded-md">Case Studies</h3>
+                <h3 style="font-family: 'Space Grotesk', sans-serif;" class=" font-bold hover:scale-110 hover:bg-lime-400 hover:shadow[#000000] font-bold text-2xl text-[#000000] bg-lime-400 p-2 rounded-md">Case Studies</h3>
             </div>
             <div>
                 <p class="text-xl text-[#000000]">Explore Real-Life Examples of Our Proven Digital Marketing<br> Success through Our Case Studies</p>
@@ -89,32 +94,32 @@
         </div>
         <div class="flex gap-5 mt-20">
             <div>
-                <h3 class=" font-bold text-2xl text-[#000000] bg-lime-400 p-2 rounded-md">Our Working Process</h3>
+                <h3 style="font-family: 'Space Grotesk', sans-serif;" class="hover:scale-110 hover:bg-lime-400 hover:shadow[#000000] font-bold text-2xl text-[#000000] bg-lime-400 p-2 rounded-md font-bold">Our Working Process</h3>
             </div>
             <div>
                 <p class="text-xl text-[#000000]">Explore Real-Life Examples of Our Proven Digital Marketing<br> Success through Our Case Studies</p>
             </div>
         </div>
-        <div class="bottom bottom-shadow-lg mt-20 rounded-3xl mx-3.5 bg-[#B9FF66] border border-[#191A23] p-10"><!--divider card-->
-            <div>
-                <div class="flex justify-between ">
-                    <h5 class=" "><span class="text-[#000000] text-5xl font-bold">01</span> <span class="text-2xl text-center>Consultation mt-20">Consultation</span></h5>
+        <div class="hover:scale-110 hover:bg-lime-400 hover:shadow[#000000]   bottom bottom-shadow-lg mt-20 rounded-3xl mx-3.5 bg-[#B9FF66] border border-[#191A23] p-10"><!--divider card-->
+            <div class="mx-3.5 my-3.5 gap-7"> 
+                <div class=" flex justify-between ">
+                    <h5 style="font-family: 'Space Grotesk', sans-serif;" ><span class="text-[#000000] text-5xl font-bold">01</span> <span class="text-2xl text-center>Consultation ">Consultation</span></h5>
                     <img class="w-25 h-25" src="/EDGE-IIUC-midterm-main/postivus/desktop/minus.png"/>
                 </div>
             </div>
             <div>
-                <hr class="border-t border-black my-4">
-                <p>During the initial consultation, we will discuss your business goals and objectives, target audience, and current marketing efforts. This will allow us to understand your needs and tailor our services to best fit your requirements.
+                <hr  class="  border-t border-black my-4">
+                <p style="font-family: 'Space Grotesk', sans-serif;">During the initial consultation, we will discuss your business goals and objectives, target audience, and current marketing efforts. This will allow us to understand your needs and tailor our services to best fit your requirements.
                 </p>
             </div>
         </div>
         <div>
-            <div class="mt-10 border border-[#191A23] rounded-3xl p-10">
+            <div class=" hover:scale-110 hover:bg-lime-400 hover:shadow[#000000] mt-10 border border-[#191A23] rounded-3xl p-10">
                 <div class="flex justify-between ">
-                    <div class="flex gap-5">
-                        <h3 class="text-5xl font-bold text-[#000000] ">02</h3>
+                    <div class="flex gap-5 mx-3.5 my-3.5">
+                        <h3 style="font-family: 'Space Grotesk', sans-serif;"  class="text-5xl font-bold text-[#000000] ">02</h3>
                         <div>
-                            <p class="mb-5 mt-5 text-2xl text-[#000000]">Research and Strategy Development</p>
+                            <p style="font-family: 'Space Grotesk', sans-serif;" class=" text-2xl text-[#000000]">Research and Strategy Development</p>
                         </div>
                     </div>
                     <div>
@@ -122,12 +127,12 @@
                        </div>
                 </div>
             </div>
-            <div class="mt-10 border border-[#191A23] rounded-3xl p-10">
+            <div class=" hover:scale-110 hover:bg-lime-400 hover:shadow[#000000] mt-10 border border-[#191A23] rounded-3xl p-10">
                 <div class="flex justify-between ">
                     <div class="flex gap-5">
-                        <h3 class="text-5xl font-bold text-[#000000] ">03</h3>
+                        <h3 style="font-family: 'Space Grotesk', sans-serif;" class="text-5xl font-bold text-[#000000] ">03</h3>
                         <div>
-                            <p class="mb-5 mt-5 text-2xl text-[#000000]">Implementation</p>
+                            <p style="font-family: 'Space Grotesk', sans-serif;" class=" text-2xl text-[#000000]">Implementation</p>
                         </div>
                     </div>
                     <div>
@@ -135,12 +140,12 @@
                        </div>
                 </div>
             </div>
-            <div class="mt-10 border border-[#191A23] rounded-3xl p-10">
+            <div class="hover:scale-110 hover:bg-lime-400 hover:shadow[#000000]  mt-10 border border-[#191A23] rounded-3xl p-10">
                 <div class="flex justify-between ">
                     <div class="flex gap-5">
-                        <h3 class="text-5xl font-bold text-[#000000] ">04</h3>
+                        <h3 style="font-family: 'Space Grotesk', sans-serif;" class="text-5xl font-bold text-[#000000] ">04</h3>
                         <div>
-                            <p class="mb-5 mt-5 text-2xl text-[#000000]">Monitoring and Optimization</p>
+                            <p style="font-family: 'Space Grotesk', sans-serif;" class=" text-2xl text-[#000000]">Monitoring and Optimization</p>
                         </div>
                     </div>
                     <div>
@@ -150,31 +155,53 @@
             </div>
         </div>
     </main>
-    <footer class=" bg-pink mt-20">
+    <footer class=" bg-black mx-3.5 px-5 py-3 rounded-lg mt-10">
         <nav>
-            <div class="flex justify-between  text-[#000000] gap-5">
+            <div class="flex justify-between  text-[#000000] gap-5 mt-5">
                 <div>
-                    <img class="w-25 h-25" src="/EDGE-IIUC-midterm-main/postivus/desktop/logo-big.png"/>
+                    <img class="w-25 h-25" src="/EDGE-IIUC-midterm-main/postivus/desktop/Logo.png"/>
                 </div>
-                <div>
-                    <ul class="grid grid-cols-5 gap-3 text-2xl ">
-                        <li class="underline">About Us</li>
-                        <li class="underline">Services</li>
-                        <li class="underline">Use Cases</li>
-                        <li class="underline">Pricing</li>
-                        <li class="underline">Blog</li>
-                    </ul>
-                </div>
-                <div >
-                    <ul class="grid grid-cols-3">
-                        <li><img class="w-12 h-12"src="/EDGE-IIUC-midterm-main/postivus/desktop/Social icon.png"/></li>
-                        <li><img class="w-25 h-25"src="/EDGE-IIUC-midterm-main/postivus/desktop/Social icon (2).png"/></li>
-                        <li><img class="w-12 h-12"src="/EDGE-IIUC-midterm-main/postivus/desktop/Social icon (1).png"/></li>
+               <div class="flex gap-5">
+                    <div>
+                        <ul class="grid grid-cols-5 gap-3 text-xl text-[#FFFFFF] ">
+                            <li class="hover:scale-105 underline">About Us</li>
+                            <li class=" hover:scale-105  underline">Services</li>
+                            <li class="hover:scale-105 underline">Use Cases</li>
+                            <li class="hover:scale-105  underline">Pricing</li>
+                            <li class="hover:scale-105  underline">Blog</li>
+                        </ul>
+                    </div>
+                    <div >
+                        <ul class="flex gap-3 ">
+                            <li><img class="hover:scale-150  w-12 h-12"src="/EDGE-IIUC-midterm-main/postivus/desktop/social-linkedin.png"/></li>
+                            <li><img class=" hover:scale-150  w-12 h-12"src="/EDGE-IIUC-midterm-main/postivus/desktop/social-fb.png"/></li>
+                            <li><img class=" hover:scale-150  w-12 h-12"src="/EDGE-IIUC-midterm-main/postivus/desktop/social-twitter.png"/></li>
 
-                    </ul>
-                </div>
+                        </ul>
+                    </div>
+               </div>
             </div>
         </nav>
+        <div class="  flex gap-96"> 
+            <div class="mt-10  ">
+                <button class=" hover:scale-110 hover:bg-lime-400 hover:shadow[#000000] text-lg text-[#000000] bg-[#B9FF66] rounded-md p-1 mb-5 text-center font-bold">Contact US</button>
+                <p class="text-sm text-[#FFFFFF] mb-5">Email: info@positivus.com</p>
+                <p class="text-sm text-[#FFFFFF] mb-5">Phone: 555-567-8901</p>
+                <p class="text-sm text-[#FFFFFF] mb-5">Address: 1234 Main St<br>
+                Moonstone City, Stardust State 12345</p>
+            </div>
+            <div class="hover:scale-110 hover:bg-[#1F1F24] hover:shadow[#000000] bg-[#1F1F24] rounded-md p-5 md:p-6 flex items-center gap-3 max-w-md mx-auto mt-10">
+                <input type="email" placeholder="Email" class=" hover:scale-110 hover:bg-[#1F1F24] hover:shadow[#000000] bg-transparent border border-gray-500 rounded-lg px-4 py-2 text-white placeholder-gray-400 focus:outline-none focus:border-white">
+                <button class="hover:scale-110 hover:bg-lime-400 hover:shadow[#000000] bg-[#B9FF66] text-black rounded-lg px-4 py-2 font-semibold">Subscribe to news</button>
+            </div>
+        </div>
+        <div class="border-t border-gray-500 mt-10 pt-5 flex flex-col md:flex-row gap-5 mb-10 text-xl items-center text-gray-400 text-sm">
+            <p>© 2023 Positivus. All Rights Reserved.</p>
+            <a href="#" class="hover:text-white">Privacy Policy</a>
+        </div>
+    </div>
     </footer>
+   
+    
 </body>
 </html>
